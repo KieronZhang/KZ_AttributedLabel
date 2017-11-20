@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE3EE22A1FC0C91C001AFAA1 /* KZ_AttributedLabelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3EE2291FC0C91C001AFAA1 /* KZ_AttributedLabelFramework.framework */; };
+		AEA5EBD31FC2A4EC003D7BD1 /* KZ_AttributedLabelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBD21FC2A4EC003D7BD1 /* KZ_AttributedLabelFramework.framework */; };
 		AED818BB1FB2A519000DBD12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AED818BA1FB2A519000DBD12 /* AppDelegate.m */; };
 		AED818BE1FB2A519000DBD12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED818BD1FB2A519000DBD12 /* ViewController.m */; };
 		AED818C11FB2A519000DBD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED818BF1FB2A519000DBD12 /* Main.storyboard */; };
@@ -102,8 +102,21 @@
 		AED819881FB2A67E000DBD12 /* FullLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED819861FB2A67E000DBD12 /* FullLabelViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AED6A9D01FC19A1C00BDA0F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		AE3EE2291FC0C91C001AFAA1 /* KZ_AttributedLabelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AttributedLabelFramework.framework; sourceTree = "<group>"; };
+		AEA5EBD21FC2A4EC003D7BD1 /* KZ_AttributedLabelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AttributedLabelFramework.framework; sourceTree = "<group>"; };
 		AED818B61FB2A519000DBD12 /* KZ_AttributedLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_AttributedLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED818B91FB2A519000DBD12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AED818BA1FB2A519000DBD12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -208,13 +221,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3EE22A1FC0C91C001AFAA1 /* KZ_AttributedLabelFramework.framework in Frameworks */,
+				AEA5EBD31FC2A4EC003D7BD1 /* KZ_AttributedLabelFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEA5EBD11FC2A4EC003D7BD1 /* AttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5EBD21FC2A4EC003D7BD1 /* KZ_AttributedLabelFramework.framework */,
+			);
+			path = AttributedLabel;
+			sourceTree = "<group>";
+		};
 		AED818AD1FB2A519000DBD12 = {
 			isa = PBXGroup;
 			children = (
@@ -242,7 +263,7 @@
 				AED819861FB2A67E000DBD12 /* FullLabelViewController.m */,
 				AED818D71FB2A654000DBD12 /* EmojiImages */,
 				AED8192B1FB2A655000DBD12 /* EmojiPlist */,
-				AED818CF1FB2A654000DBD12 /* AttributedLabel */,
+				AEA5EBD11FC2A4EC003D7BD1 /* AttributedLabel */,
 				AED818BF1FB2A519000DBD12 /* Main.storyboard */,
 				AED818C21FB2A519000DBD12 /* Assets.xcassets */,
 				AED818C41FB2A519000DBD12 /* LaunchScreen.storyboard */,
@@ -250,14 +271,6 @@
 				AED818C81FB2A519000DBD12 /* main.m */,
 			);
 			path = KZ_AttributedLabel;
-			sourceTree = "<group>";
-		};
-		AED818CF1FB2A654000DBD12 /* AttributedLabel */ = {
-			isa = PBXGroup;
-			children = (
-				AE3EE2291FC0C91C001AFAA1 /* KZ_AttributedLabelFramework.framework */,
-			);
-			path = AttributedLabel;
 			sourceTree = "<group>";
 		};
 		AED818D71FB2A654000DBD12 /* EmojiImages */ = {
@@ -369,6 +382,7 @@
 				AED818B21FB2A519000DBD12 /* Sources */,
 				AED818B31FB2A519000DBD12 /* Frameworks */,
 				AED818B41FB2A519000DBD12 /* Resources */,
+				AED6A9D01FC19A1C00BDA0F5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -658,6 +672,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KZ_AttributedLabel/AttributedLabel",
+					"$(PROJECT_DIR)/KZ_AttributedLabel/KZ_AttributedLabelFramework/Products",
 				);
 				INFOPLIST_FILE = KZ_AttributedLabel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -678,6 +693,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KZ_AttributedLabel/AttributedLabel",
+					"$(PROJECT_DIR)/KZ_AttributedLabel/KZ_AttributedLabelFramework/Products",
 				);
 				INFOPLIST_FILE = KZ_AttributedLabel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

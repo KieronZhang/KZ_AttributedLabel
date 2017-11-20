@@ -2,7 +2,7 @@
 //  KZ_AttributedLabelFramework.h
 //  KZ_AttributedLabelFramework
 //
-//  Created by Kieron Zhang on 2017/11/17.
+//  Created by Kieron Zhang on 2017/11/19.
 //  Copyright © 2017年 Kieron Zhang. All rights reserved.
 //
 
