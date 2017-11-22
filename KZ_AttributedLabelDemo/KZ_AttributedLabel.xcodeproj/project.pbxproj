@@ -672,7 +672,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KZ_AttributedLabel/AttributedLabel",
-					"$(PROJECT_DIR)/KZ_AttributedLabel/KZ_AttributedLabelFramework/Products",
 				);
 				INFOPLIST_FILE = KZ_AttributedLabel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -693,7 +692,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KZ_AttributedLabel/AttributedLabel",
-					"$(PROJECT_DIR)/KZ_AttributedLabel/KZ_AttributedLabelFramework/Products",
 				);
 				INFOPLIST_FILE = KZ_AttributedLabel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
