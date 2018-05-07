@@ -1,13 +1,13 @@
 //
 //  FullLabelViewController.m
-//  KZ_AttributedLabel
+//  KZ_AttributedLabel_iOS
 //
-//  Created by Kieron Zhang on 2017/11/7.
-//  Copyright © 2017年 Kieron Zhang. All rights reserved.
+//  Created by Kieron Zhang on 2018/5/7.
+//  Copyright © 2018年 Kieron Zhang. All rights reserved.
 //
 
 #import "FullLabelViewController.h"
-#import <KZ_AttributedLabelFramework/KZ_AttributedLabel.h>
+#import <KZ_AttributedLabel_iOS/KZ_AttributedLabel.h>
 
 @interface FullLabelViewController () <KZ_AttributedLabelDelegate>
 
