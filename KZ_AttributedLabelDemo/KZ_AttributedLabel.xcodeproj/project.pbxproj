@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE4A1F74217495C90095BA90 /* KZ_AttributedLabel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4A1F73217495C90095BA90 /* KZ_AttributedLabel_iOS.framework */; };
 		AEC62A9620A061CC00DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62A9520A061CC00DFC8B9 /* AppDelegate.m */; };
 		AEC62A9920A061CC00DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62A9820A061CC00DFC8B9 /* ViewController.m */; };
 		AEC62A9C20A061CC00DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62A9A20A061CC00DFC8B9 /* Main.storyboard */; };
@@ -98,11 +99,11 @@
 		AEC62B5420A0622400DFC8B9 /* face340.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC62AFE20A0622400DFC8B9 /* face340.png */; };
 		AEC62B5520A0622400DFC8B9 /* kbsa_org.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC62AFF20A0622400DFC8B9 /* kbsa_org.png */; };
 		AEC62B5620A0622400DFC8B9 /* face221.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC62B0020A0622400DFC8B9 /* face221.png */; };
-		AEC62B5820A0623100DFC8B9 /* KZ_AttributedLabel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62B5720A0623100DFC8B9 /* KZ_AttributedLabel_iOS.framework */; };
 		AEC62B5B20A0625700DFC8B9 /* FullLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62B5A20A0625700DFC8B9 /* FullLabelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE4A1F73217495C90095BA90 /* KZ_AttributedLabel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AttributedLabel_iOS.framework; sourceTree = "<group>"; };
 		AEC62A9220A061CB00DFC8B9 /* KZ_AttributedLabel_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_AttributedLabel_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC62A9420A061CC00DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEC62A9520A061CC00DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -198,7 +199,6 @@
 		AEC62AFE20A0622400DFC8B9 /* face340.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face340.png; sourceTree = "<group>"; };
 		AEC62AFF20A0622400DFC8B9 /* kbsa_org.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kbsa_org.png; sourceTree = "<group>"; };
 		AEC62B0020A0622400DFC8B9 /* face221.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face221.png; sourceTree = "<group>"; };
-		AEC62B5720A0623100DFC8B9 /* KZ_AttributedLabel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AttributedLabel_iOS.framework; sourceTree = "<group>"; };
 		AEC62B5920A0625700DFC8B9 /* FullLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullLabelViewController.h; sourceTree = "<group>"; };
 		AEC62B5A20A0625700DFC8B9 /* FullLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullLabelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,7 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC62B5820A0623100DFC8B9 /* KZ_AttributedLabel_iOS.framework in Frameworks */,
+				AE4A1F74217495C90095BA90 /* KZ_AttributedLabel_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +239,7 @@
 		AEC62AA820A0622300DFC8B9 /* AttributedLabel */ = {
 			isa = PBXGroup;
 			children = (
-				AEC62B5720A0623100DFC8B9 /* KZ_AttributedLabel_iOS.framework */,
+				AE4A1F73217495C90095BA90 /* KZ_AttributedLabel_iOS.framework */,
 			);
 			path = AttributedLabel;
 			sourceTree = "<group>";
@@ -562,7 +562,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AttributedLabel-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AttributedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -586,7 +586,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AttributedLabel-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AttributedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
